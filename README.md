@@ -15,7 +15,7 @@ Delete a dog from the json file
 * curl -X DELETE -v -i 'http://localhost:3000/api/dogs/5'
 
 Get a dog from the json file
-* curl'http://localhost:3000/api/dogs/2’
+* curl 'http://localhost:3000/api/dogs/2’
 
 Get all dogs from the json file
 * curl 'http://localhost:3000/api/dogs’
