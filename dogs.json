@@ -1,14 +1,14 @@
 [
   {
-    "id": 44,
-    "name": "Rory",
-    "owner_name": "Erin",
-    "notes": "first dog"
+    "id": 2,
+    "name": "Leia",
+    "owner_name": "Holly",
+    "notes": "great dog, better friend"
   },
   {
-    "id": 45,
-    "name": "Harry",
+    "id": 5,
+    "name": "Dakota",
     "owner_name": "Fil",
-    "notes": "BIG dog"
+    "notes": "Loves long walks and the beach and cuddling"
   }
 ]
