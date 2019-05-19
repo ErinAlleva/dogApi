@@ -6,13 +6,13 @@ Clone the project and then start the rails server locally.
 # Curl request examples
 
 Add a new dog to the json file
-* curl -X POST -v -i 'http://localhost:3000/api/dogs?owner_name=Erin&name=Rory&notes=first%20dog'
+* curl -X POST -v -i 'http://localhost:3000/api/dogs?owner_name=Erin&name=Rory&notes=best%20dog'
 
 Update a dog already in the json file
-* curl -X PUT -v -i 'http://localhost:3000/api/dogs/40?name=Harry'
+* curl -X PUT -v -i 'http://localhost:3000/api/dogs/2?name=Harry'
 
 Delete a dog from the json file
-* curl -X DELETE -v -i 'http://localhost:3000/api/dogs/5'
+* curl -X DELETE -v -i 'http://localhost:3000/api/dogs/3'
 
 Get a dog from the json file
 * curl 'http://localhost:3000/api/dogs/2’
