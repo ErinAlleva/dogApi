@@ -1,24 +1,23 @@
-# README
+# Dog API 
+If you do not have ruby and rails installed, install those. This project uses ruby 2.4.3.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Clone the project and then start the rails server locally.
 
-Things you may want to cover:
+# Curl request examples
 
-* Ruby version
+Add a new dog to the json file
+* curl -X POST -v -i 'http://localhost:3000/api/dogs?owner_name=Erin&name=Rory&notes=first%20dog'
 
-* System dependencies
+Update a dog already in the json file
+* curl -X PUT -v -i 'http://localhost:3000/api/dogs/40?name=Harry'
 
-* Configuration
+Delete a dog from the json file
+* curl -X DELETE -v -i 'http://localhost:3000/api/dogs/5'
 
-* Database creation
+Get a dog from the json file
+* curl'http://localhost:3000/api/dogs/2’
 
-* Database initialization
+Get all dogs from the json file
+* curl 'http://localhost:3000/api/dogs’
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I did end up running out of time to finish this how I would probably have liked to. I would have continued by locking it down a bit for weird inputs and better error handling and testing it a little bit more for weird cases.
